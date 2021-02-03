@@ -43,7 +43,7 @@ Education.create([
   }
 ])
 
-Skills.create([
+Skill.create([
   {
     title: 'React.js',
     description: 'Built and integrated forms and tables with backend data',
