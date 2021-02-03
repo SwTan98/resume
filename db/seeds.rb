@@ -52,7 +52,6 @@ Skills.create([
     title: 'Python',
     description: 'Python for NLTK and machine learning',
   },
-])
   {
     title: 'Apollo GraphQL',
     description: 'Integrated forms and tables in frontend making use of GraphQL queries and mutations',
