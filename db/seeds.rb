@@ -27,7 +27,7 @@ Experience.create([
     title: 'Frontend Web Dev',
     company: 'Inventrix Solutions',
     date: '03/2020 - 04/2020',
-  },
+  }
 ])
 
 Education.create([
@@ -40,7 +40,7 @@ Education.create([
     title: 'Diploma in ICT',
     school: 'Asia Pacific University',
     date: '05/2018',
-  },
+  }
 ])
 
 Skills.create([
@@ -56,5 +56,5 @@ Skills.create([
   {
     title: 'Apollo GraphQL',
     description: 'Integrated forms and tables in frontend making use of GraphQL queries and mutations',
-  },
+  }
 ])
