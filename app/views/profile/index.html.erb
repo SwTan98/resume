@@ -1,0 +1,72 @@
+<h1>Resume</h1>
+
+<h2>
+  Information
+</h2>
+<% @profiles.each do |profile| %>
+  <ul>
+    <li>
+      Name: <%= profile.name %>
+    </li>
+    <li>
+      Address: <%= profile.address %>
+    </li>
+    <li>
+      Phone: <%= profile.phone %>
+    </li>
+    <li>
+      Email: <%= profile.email %>
+    </li>
+    <li>
+      LinkedIn: <%= profile.linkedin %>
+    </li>
+    <li>
+      GitHub: <%= profile.github %>
+    </li>
+  </ul>
+<% end %>
+
+<h2>
+  Experience
+</h2>
+<% @experiences.each do |experience| %>
+  <ul>
+    <b>
+      <%= experience.title %>
+    </b>
+    <li>
+      <%= experience.company %>
+      (<%= experience.date %>)
+    </li>
+  </ul>
+<% end %>
+
+<h2>
+  Education
+</h2>
+<% @educations.each do |education| %>
+  <ul>
+    <b>
+      <%= education.title %>
+    </b>
+    <li>
+      <%= education.school %>
+      (<%= education.date %>)
+    </li>
+  </ul>
+<% end %>
+
+<h2>
+  Skills
+</h2>
+<% @skills.each do |skill| %>
+  <ul>
+    <b>
+      <%= skill.title %>
+    </b>
+    <li>
+      <%= skill.description %>
+    </li>
+  </ul>
+<% end %>
+
