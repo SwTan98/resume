@@ -4,6 +4,7 @@ Steps
 
 * Clone the repo
 * cd resume
+* yarn
 * bundle install
 * rails db:migrate
 * rails db:seed
